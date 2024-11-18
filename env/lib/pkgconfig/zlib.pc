@@ -1,0 +1,13 @@
+prefix=/workspaces/Book-Recommender-System/env
+exec_prefix=/workspaces/Book-Recommender-System/env
+libdir=/workspaces/Book-Recommender-System/env/lib
+sharedlibdir=/workspaces/Book-Recommender-System/env/lib
+includedir=/workspaces/Book-Recommender-System/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
